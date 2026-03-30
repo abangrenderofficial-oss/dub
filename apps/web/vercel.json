@@ -2,11 +2,11 @@
   "crons": [
     {
       "path": "/api/cron/domains/verify",
-      "schedule": "0 * * * *"
+      "schedule": "0 0 * * *"
     },
     {
       "path": "/api/cron/email-domains/verify",
-      "schedule": "0 * * * *"
+      "schedule": "0 0 * * *"
     },
     {
       "path": "/api/cron/domains/renewal-reminders",
@@ -34,7 +34,7 @@
     },
     {
       "path": "/api/cron/payouts/aggregate-due-commissions",
-      "schedule": "0 * * * *"
+      "schedule": "0 0 * * *"
     },
     {
       "path": "/api/cron/trigger-withdrawal",
@@ -54,7 +54,7 @@
     },
     {
       "path": "/api/cron/bounties/queue-sync-social-metrics",
-      "schedule": "0 * * * *"
+      "schedule": "0 0 * * *"
     }
   ],
   "functions": {
